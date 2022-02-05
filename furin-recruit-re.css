@@ -1,0 +1,95 @@
+@media(max-width:900px){
+
+    /* NAV */
+    .top-ul li{
+        font-size:15px;
+    }
+    /* TOP-VIEW */
+    .top-view{
+        height:450px;/*CC*/
+    }
+}
+
+@media(max-width:600px){
+    /* HEADER */
+    header{
+        height:70px;
+        padding-top:12px;
+    }
+    .header-logo img{
+        width:50px;
+    }
+    #sub-ttl,.header-Rtxt{
+        font-size:12px;
+    }
+    #main-ttl{
+        font-size:20px;
+    }
+    #header-ttl{
+        font-size:30px;
+    }
+    /* NAV */
+    .top-nav{
+        height:56px;
+    }
+    .top-ul li{
+        font-size:12px;
+        line-height:56px;
+    }
+  /*/*/*/*/*/
+  .recruit-h1{
+    border-top:5px white solid;
+    height:40px;
+    padding-left:15px;
+}
+.recruit-wrapper h1{
+    line-height:35px;
+    font-size:16px;
+}
+/*offer*/
+
+.heading,.offer h3{
+    font-size:16px;
+}
+.lists li,.item p{
+    margin-right:10px;
+    font-size:12px;
+}
+.txt p{
+    font-size:14px;
+}
+.applyBTN{
+    display:flex;
+    justify-content:center;
+}
+.apply-btn{
+    height:30px;
+    line-height:30px;
+}
+.offer a{
+    display:inline-block;
+    width:150px;
+    font-size:14px;
+}
+     /*PAGE-TOP-BTN*/
+     .page-top-btn{
+        position:fixed;
+        bottom:15px;
+        right:15px;
+    }
+    .page-top-btn a{
+        font-size:20px;
+    }
+    /* FOOTER */
+    footer{
+        height:220px;
+        padding-top:10px;
+    }
+    .footer-ttl img{
+        width:50px;
+    }
+    .footer-address p,.footer-nav li{
+        font-size:12px;
+    }
+
+}
