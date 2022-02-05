@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+body{
+    background-color:#EFF4FF;
+    font-family: "Zen Old Mincho";
+    color:#707070;
+}
+
+.container{
+    width:95%;
+    margin:0 auto;
+}
+
+/*-------------*/
+
+/*HEADER*/
+header{
+    height:100px;
+    padding-top:22px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+        /*L*/
+.header-left{
+    display:flex;
+    flex-direction: row;
+}
+.header-logo img{
+    width:70px;
+}
+.header-Ltxt{
+    margin-left:25px;
+}
+#sub-ttl{
+    font-size:15px;
+}
+#main-ttl{
+    color:#829ED1;
+    font-size:25px;
+}
+#header-ttl{
+    font-size:45px;
+}
+
+        /*R*/
+.header-right{
+    text-align:right;
+}
+.header-num{
+    margin-left:20px;
+}
+/*NAVIGATION*/
+.top-nav{
+    background-color:#829ED1 ;
+    height:80px;
+}
+.top-ul{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    text-align: center;
+}
+.top-ul li{
+    width:16%;
+    font-size:20px;
+    line-height:80px;
+}
+/* TOP-VIEW */
+.top-view{
+    width:100%;
+    height:600px;
+    background-image: url(bg-recruit-furin.jpg);
+    background-size:cover;
+    background-position:40% 30%;
+}
+    /* CONTENTS */
+    .contents{
+        width:90%;
+        margin:0 auto;
+        margin-top:50px;
+    }
+    .contents p{
+        font-size:16px;
+    }
+    .recruit-wrapper{
+        margin-bottom:30px;
+    }
+    .recruit-h1{
+        border-top:10px white solid;
+        height:80px;
+        background-color:#829ED1;
+        padding-left:30px;
+    }
+    .recruit-wrapper h1{
+        line-height:70px;
+        color:white;
+        font-size:20px; 
+    }
+    .recruit{
+        margin-top:20px;
+        background-color:white;
+        padding:20px 30px;
+    }
+        /* offer */
+        .offer{
+            border:5px solid #E2EBFC;
+            padding:15px;
+        }
+        .margin-bottom{
+            margin-bottom:10px;
+        }
+        .heading{
+            font-size:18px;
+            border-bottom:1px solid #707070;
+            padding-bottom:5px;
+        }
+        .lists{
+            display:flex;
+            flex-direction:row;
+            margin-top:3px;
+        }
+        .lists li{
+            margin-right:20px;
+        }
+        .icon{
+            margin-right:5px;
+            color:#829ED1;
+        }
+        .items{
+            display:flex;
+            flex-direction:row;
+            margin-top:3px;
+        }
+        .item{
+            border:2px solid #829ED1;
+            border-radius:4px;
+            margin-right:10px;
+            padding:2px;
+            color:#829ED1;
+        }
+        .offer h3{
+            margin-top:20px;
+            color:#829ED1;
+            font-size:18px;
+            font-weight: bold;
+        }
+        .applyBTN{
+            width:100%;
+            display:flex;
+            justify-content: flex-end;
+        }
+        .apply-btn{
+            background-color:#829ED1;
+            color:white;
+            text-align:center;
+            border-radius:5px;
+            height:40px;
+            line-height:40px;
+            margin-top:10px;
+        }
+        .offer a{
+            display:inline-block;
+            width:200px;
+        }
+/* PAGE TOP BTN */
+.page-top-btn{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+}
+.page-top-btn a{
+    font-size:40px;
+    display:block;
+}
+.page-top-btn:hover{
+    opacity:0.8;
+}
+/* FOOTER */
+footer{
+    width:100%;
+    height:330px;
+    background-color:white;
+    padding-top:30px;
+    text-align:center;
+}
+
+        /* FOOTER-TTL */
+.footer-ttl{
+    text-align:center;
+}
+.footer-ttl img{
+    width:70px;
+}
+.Fsub-ttl{
+    color:#829ED1;
+}
+        /* FOOTER-ADDRESS */
+.footer-address{
+    margin-top:15px;
+}
+        /* FOOTER-UL */
+.footer-nav{
+    margin-top:15px;
+}
+.footer-nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.footer-nav a{
+    margin:0 10px;
+}
+
